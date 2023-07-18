@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background: rgb(216, 214, 214);
+    font-family: 'Bitter', serif;
+    height: 100vh;
+    transition: transform o.3s ease-in;
+}
+.sidebar nav{
+padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: #000;
+}
+.main{
+   /* background: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+
+}
+.infoContainer{
+/*background: rgb(255, 0, 191);*/
+height: 58vh;
+width: 80vw;
+margin: 144px auto;
+display: flex;
+justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+justify-content:center ;    
+flex-direction: column;
+}
+.hello{
+    font-size: 75px;
+}
+.name{
+    font-size: 50px;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 19px;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn {
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background: rgb(93, 93, 158);
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.devPic img{
+    width: 355px;
+    height: 58vh;
+    
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    justify-content: space-around;
+    margin: 0 88px;
+
+}
+.contactform h1{
+padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem {
+margin: 20px;
+justify-content: space-around;
+}
+.blogContainer{
+    margin: 0 88px;
+}
+ h1{
+    justify-content: space-around;
+margin: 23px;
+    
+}
+ p{}
+ .intro{
+    margin:  88px;
+    margin-top: 50px;
+    align-items: center;
+ }
+ .intro h2{
+    justify-content: space-around;
+    margin:  12px;
+ }
+ .intro p{
+    justify-content: space-around;
+    margin: 12px;
+ }
+ .skillcontainer{
+    padding: 12px;
+ }
+ .skillitem{
+    display: flex;
+    align-items: center;
+ }
+ .skill{
+    width: 265px;
+    height: 6px;
+    background: red;
+    border: 2px solid black;
+ }
+ .hundered{
+    width: 265px;
+    background: blue;
+ }
+ .fifty{
+    width: 125px;
+    background: aqua;
+ }
+ .t5{
+    width: 75px;
+    background: yellow;
+ }
+ .sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+ }
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+}
+.cros{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+@media (max-width: 1615px){
+   
+}
